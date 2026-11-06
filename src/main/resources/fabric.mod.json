@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "pvphelper",
+  "version": "1.0.0",
+  "name": "FunTime PvP Helper",
+  "description": "Nursultan style GUI & PvP features for FunTime",
+  "authors": ["Developer"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.pvphelper.PvPHelperClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
